@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            max-width: 500px;
+            border: 1px solid black;
+        }
+
+        .item {
+            background-color: azure;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            margin-bottom: 5px;     
+            margin-right: 5px;  
+         }
+        
+        .wrap {
+            flex-flow: row wrap;
+        }
+
+        .color1 {
+            background-color: #0fffd5;
+        }
+
+        .color2 {
+            background-color: #daff85;
+        }
+
+        .color3 {
+            background-color: #9b04aa;
+        }
+
+        .color4 {
+            background-color: #fe478c;
+        }
+
+        .color5 {
+            background-color: #ffae94;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Wrap</h1>
+    <div class="flex-container wrap">
+        <div class="item color1" > 1 </div>
+        <div class="item color2" > 2 </div>
+        <div class="item color3" > 3 </div>
+        <div class="item color4" > 4 </div>
+        <div class="item color5" > 5 </div>
+        <div class="item color1"> 6 </div>
+        <div class="item color2"> 7 </div>
+    </div>
+</body>
+
+</html>

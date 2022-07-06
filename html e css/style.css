@@ -1,0 +1,66 @@
+
+.flex-container {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    list-style: none;
+}
+
+.flex-item {
+    background: #545b8b;
+    height: fit-content;
+    max-width: max-content;
+    line-height: max-content;
+    margin: 5px;
+    color: white;
+    align-content: center;
+    display: flex;
+}
+
+body {
+    background-color: #b5b4b6;
+    max-width: 900px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#title, #subtitle, #post-title {
+    color: #00003a;
+}
+
+#title {
+    font-family: Garamond, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+#subtitle {
+    padding-left: 10;
+}
+
+.post-title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.post {
+    background-color: #eae9ed;
+    padding: 15px;
+    border: solid #00003a;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.postimage {
+    margin-bottom: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.contact {
+    list-style-type: none;
+    padding-left: 15px;
+    
+}
